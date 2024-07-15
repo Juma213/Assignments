@@ -17,3 +17,6 @@ elif operator == "*":
 # For dividing two numbers
 elif operator == "/":
     print(num1/num2)
+
+else:
+    print("Please enter a valid operator........")
