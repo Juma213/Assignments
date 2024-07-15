@@ -1,27 +1,19 @@
-def main():
-    """
-    This is a calculator method
-    """
-    # Take input from the user
-    num1 = float(input("Enter the first number: "))
-    num2 = float(input("Enter the second number: "))
-    
-    # Perform arithmetic operations
-    sum_result = num1 + num2
-    difference_result = num1 - num2
-    product_result = num1 * num2
-    
-    # Check if num2 is not zero to avoid division by zero
-    if num2 != 0:
-        division_result = num1 / num2
-    else:
-        division_result = "Undefined (division by zero)"
-    
-    # Display the results
-    print(f"\n{num1} + {num2} = {sum_result}")
-    print(f"{num1} - {num2} = {difference_result}")
-    print(f"{num1} * {num2} = {product_result}")
-    print(f"{num1} / {num2} = {division_result}")
+num1 = int(input("Enter first number : "))
+operator = input("Enter your operator : ")
+num2 = int(input("Enter second number : "))
 
-if __name__ == "__main__":
-    main()
+# For adding two numbers
+if operator == "+":
+    print(num1 + num2)
+    
+# For subtracting two numbers
+elif operator == "-":
+    print(num1-num2)
+
+# For multiplying two numbers
+elif operator == "*":
+    print(num1*num2)
+
+# For dividing two numbers
+elif operator == "/":
+    print(num1/num2)
