@@ -8,15 +8,15 @@ if operator == "+":
     
 # For subtracting two numbers
 elif operator == "-":
-    print(num1-num2)
+    print(num1 - num2)
 
 # For multiplying two numbers
 elif operator == "*":
-    print(num1*num2)
+    print(num1 * num2)
 
 # For dividing two numbers
 elif operator == "/":
-    print(num1/num2)
+    print(num1 / num2)
 
 else:
     print("Please enter a valid operator........")
